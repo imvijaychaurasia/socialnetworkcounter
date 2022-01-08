@@ -3,11 +3,17 @@ Social Network susbcriber counter
 
 # **Connecting Raspberry PI to MX72XX Led Matrix**
 **Raspberry PI Pin              MX7219 LED Pin**
+
 PIN 4               >           VCC (3.3 / 5v DC)
+
 PIN 6               >           GND
+
 PIN 19              >           DIN (data in)
+
 PIN 24              >           CS (load pulse)
+
 PIN 23              >           CLK / CK (clock)
+
 
 **Guide**:
 
