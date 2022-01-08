@@ -1,7 +1,6 @@
-## socialnetworkcounter
 # **Social Network susbcriber counter**
 
-# **Connecting Raspberry PI to MX72XX Led Matrix**
+## onnecting Raspberry PI to MX72XX Led Matrix
 **Raspberry PI Pin              MX7219 LED Pin**
 
 PIN 4               >           VCC (3.3 / 5v DC)
