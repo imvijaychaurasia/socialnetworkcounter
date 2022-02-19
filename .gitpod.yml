@@ -1,9 +1,7 @@
 tasks:
   - name: add user and install 
-    init: apt install build-essential python3-dev python3-pip libfreetype6-dev libjpeg-dev libopenjp2-7 libtiff5
-    command: |
-    sudo -H pip3 install --upgrade --ignore-installed pip3 setuptools
-    sudo -H pip3 install --upgrade --force-reinstall --ignore-installed luma.core
-    sudo -H pip3 install --upgrade --force-reinstall --ignore-installed luma.led_matrix
-    git clone https://github.com/imvijaychaurasia/socialnetworkcounter
-    cd socialnetworkcounter
+    init: |
+    apt install build-essential python3-dev python3-pip libfreetype6-dev libjpeg-dev libopenjp2-7 libtiff5
+    -H pip3 install --upgrade --ignore-installed pip3 setuptools
+    -H pip3 install --upgrade --force-reinstall --ignore-installed luma.core
+    -H pip3 install --upgrade --force-reinstall --ignore-installed luma.led_matrix
