@@ -7,4 +7,4 @@ tasks:
     sudo -H pip3 install --upgrade --force-reinstall --ignore-installed luma.led_matrix
     git clone https://github.com/imvijaychaurasia/socialnetworkcounter
     cd socialnetworkcounter
-    python3 deploy.py
+    #python3 deploy.py
